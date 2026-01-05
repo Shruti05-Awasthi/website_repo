@@ -51,10 +51,12 @@ button {
 
 
 .output {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid gray;
+     min-height: 150px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #fafafa;
 }
+
 
 footer {
     margin-top: 50px;
